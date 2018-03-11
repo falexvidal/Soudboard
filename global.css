@@ -1,0 +1,110 @@
+/*Setting up box-sizing for everything */ß
+* {
+  box-sizing: border-box;
+}
+
+/* Setting up document fonts */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size:16px;
+  color:#fff;
+}
+
+/* Main navigation */
+nav {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding:15px 0;
+  position: fixed;
+  display: flex;
+  justify-content:center;
+  align-items: baseline;
+}
+
+nav h1 {
+  color:#000;
+  margin:0 40px 0 0;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+nav a {
+  color:#000;
+  text-decoration:none;
+  margin:0 40px 0 0;
+}
+
+nav a:hover {
+  text-decoration:underline;
+}
+
+/* Setting up sizes, colors, padding and backgrounc configuration for all sections on the page */
+section {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0 0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+}
+
+/* Formatting H2 headers */
+h2 {
+  font-size:4em;
+  font-weight: 900;
+  margin:10vh 0 80px 20vw;
+}
+
+/* Formatting the child paragraph of each section */
+section > p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin:50px 0 0 20vw;
+  width:60vw;
+  font-weight:300;
+}
+
+a {
+  color:#fff;
+}
+
+/* Setting up the table buttons box for each section */
+ul {
+  margin:100px auto 0 auto;
+  width:60vw;
+  padding:25px 0;
+  text-align: center;
+  border:1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+}
+
+ul a {
+  background-image: url("sound-icon.png");
+  background-repeat: no-repeat;
+  padding: 0 0 0 40px;
+  cursor: pointer;
+}
+
+ul a:hover {
+  opacity: 0.8;
+}
+
+/* Backgrounds for all sections */
+#instrument1 {
+  background-image:url("bg1.jpg");
+  display: block;
+}
+
+#instrument2 {
+  background-image:url("bg2.jpg");
+  display: none;
+}
+
+#instrument3 {
+  background-image:url("bg3.jpg");
+  display: none;
+}

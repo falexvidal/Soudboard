@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Soundboard</title>
+    <!--Callß for Reset CSS-->
+    <link rel="stylesheet" href="reset.css">
+    <!--Call for our main CSS-->
+    <link rel="stylesheet" href="global.css">
+    <!--Call for Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900">
+  </head>
+  <!--Visible content starts here-->
+  <body>
+    <header>
+      <!--Navigation fixed top-menu -->
+      <nav>
+        <h1>Soundboard</h1>
+        <a href="#" data-instrument="instrument1">Electric Guitar</a>
+        <a href="#" data-instrument="instrument2">Movie Soundtracks</a>
+        <a href="#" data-instrument="instrument3">Animal Sounds</a>
+      </nav>
+    </header>
+
+    <!--Guitar section-->
+    <section id="instrument1">
+      <!--Title-->
+      <h2>Electric Guitar</h2>
+      <!--Description paragraphs-->
+      <p>Since first riffs in the 50's by bands like Billie Holiday, Buddy Holly and The Beatles, rock'n'rool became an ever-changing creature, growing out of blues musicians and becoming a big crowd influencer. Many things changed since rock'n'roll songs became top-favourites in popular preference, and since then, music never stopped evolving.</p>
+      <p>Here you can check sample riffs of some of the most unforgettable songs. The list might not be so fair, since we have room for just 6 samples. If you wish to check out a more complete list of riffs and get more knowledge about rock'n'roll story over the years, visit the link below and have fun!</p>
+      <p><a href="https://www.youtube.com/watch?v=xiC__IjCa2s" target="_blank">100 Riffs - A Brief History of Rock'n'Roll</a></p>
+      <!--Table of buttons for Guitar section-->
+      <ul>
+        <li>
+          <a data-sound="mrsandman" class="sound">Chet Atkins</a>
+        </li>
+        <li>
+          <a data-sound="dontfearthereaper" class="sound">Blue Oyster Cult</a>
+        </li>
+        <li>
+          <a data-sound="messageinabottle" class="sound">The Police</a>
+        </li>
+        <li>
+          <a data-sound="heartshapedbox" class="sound">Nirvana</a>
+        </li>
+        <li>
+          <a data-sound="everlong" class="sound">Foo Fighters</a>
+        </li>
+      </ul>
+    </section>
+    <!--End of Guitar section-->
+
+    <!--Movies section-->
+    <section id="instrument2">
+      <h2>Movie Soundtracks</h2>
+      <p>Cinema is, undeniably, one of the most powerful art expressions. Combining storytelling with images and sounds, movies drive people to experience unforgettable collective experiences together.</p>
+      <p>Soundtracks help to guide audience's emotions, through chords and themes that highlight moments and carve stories into subconscious minds. The samples below show the importance of soundtrack in movies.</p>
+      <p>Try to remember these memorable scenes while you listen to these orchestras by the masterminds of John Williams, Bernard Herrman, Jerry Goldsmith and Enio Morricone.</p>
+      <!--Table of buttons for Movies section-->
+      <ul>
+        <li>
+          <a data-sound="et" class="sound">ET</a>
+        </li>
+        <li>
+          <a data-sound="alien" class="sound">Alien</a>
+        </li>
+        <li>
+          <a data-sound="cinemaparadiso" class="sound">Cinema Paradiso</a>
+        </li>
+        <li>
+          <a data-sound="vertigo" class="sound">Vertigo</a>
+        </li>
+        <li>
+          <a data-sound="empirestrikesback" class="sound">The Empire Strikes Back</a>
+        </li>
+      </ul>
+    </section>
+    <!--End of Movies section-->
+
+    <!--Start of Animal section-->
+    <section class="sounds" id="instrument3">
+      <h2>Animal Sounds</h2>
+      <p>Animal sounds can be quite funny when you mix them together. For some audiences, they can also be creepy, like a cat's meow or a rattlesnake.</p>
+      <p>This compilation showcases the most interesting, creepiest and funniest animal sounds - brought from the nature to your laptop screen.</p>
+      <p>You can become a DJ and mix them to check the results. Let the fun begin!</p>
+      <!--Table of buttons for Animal section-->
+      <ul>
+        <li>
+          <a data-sound="dog" class="sound">Dog</a>
+        </li>
+        <li>
+          <a data-sound="cat" class="sound">Cat</a>
+        </li>
+        <li>
+          <a data-sound="duck" class="sound">Duck</a>
+        </li>
+        <li>
+          <a data-sound="monkey" class="sound">Monkey</a>
+        </li>
+        <li>
+          <a data-sound="rattlesnake" class="sound">Rattle Snake</a>
+        </li>
+      </ul>
+    </section>
+    <!--End of Animal section-->
+
+    <audio data-sound="mrsandman" src="sounds/chet-atkins-mrsandman.mp3"></audio>
+    <audio data-sound="dontfearthereaper" src="sounds/blue-oyster-cult-dontfearthereaper.mp3"></audio>
+    <audio data-sound="messageinabottle" src="sounds/the-police-messageinabottle.mp3"></audio>
+    <audio data-sound="heartshapedbox" src="sounds/nirvana-heartshapedbox.mp3"></audio>
+    <audio data-sound="everlong" src="sounds/foo-fighters-everlong.mp3"></audio>
+    <audio data-sound="et" src="sounds/et.mp3"></audio>
+    <audio data-sound="alien" src="sounds/alien.mp3"></audio>
+    <audio data-sound="cinemaparadiso" src="sounds/cinemaparadiso.mp3"></audio>
+    <audio data-sound="vertigo" src="sounds/vertigo.mp3"></audio>
+    <audio data-sound="empirestrikesback" src="sounds/empirestrikesback.mp3"></audio>
+    <audio data-sound="dog" src="sounds/dog.wav"></audio>
+    <audio data-sound="cat" src="sounds/cat.wav"></audio>
+    <audio data-sound="duck" src="sounds/duck.wav"></audio>
+    <audio data-sound="monkey" src="sounds/monkey.wav"></audio>
+    <audio data-sound="rattlesnake" src="sounds/rattlesnake.wav"></audio>
+
+    <script src="js/audio.js"></script>
+  </body>
+</html>
