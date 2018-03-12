@@ -71,7 +71,7 @@ a {
 
 /* Setting up the table buttons box for each section */
 ul {
-  margin:100px auto 0 auto;
+  margin:100px auto 0;
   width:60vw;
   padding:25px 0;
   text-align: center;
